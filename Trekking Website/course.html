@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+    <section class="sub-header"> 
+      <nav>
+        <a href="code.html"><img src="img/logo2.jpg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="code.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">CAMPS</a></li>
+                <li><a href="review.html">REVIEWS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+     <h1>Our Trekks</h1>
+    </section>
+
+ 
+    <!-- ----course----- -->
+    <section class="course">
+        <h1>Trekks We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Illum, vel.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Easy</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam dolorem repellendus accusamus, tenetur commodi 
+                adipisci vo
+                luptas deserunt in ratione ut.</p>
+            </div>
+            <div class="course-col">
+                <h3>Medium</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam dolorem repellendus accusamus, tenetur commodi 
+                adipisci voluptas deserunt in ratione ut.</p>
+            </div>
+            <div class="course-col">
+                <h3>Hard</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam dolorem repellendus accusamus, tenetur commodi 
+                adipisci voluptas deserunt in ratione ut.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----Facilities--- -->
+
+
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur
+         adipisicing elit. Numquam, quisquam!
+        </p>
+
+        <div class="row">
+            <div class="facility-col">
+                <img src="img/food.jpeg">
+                <h3>Hygienic Food</h3>
+                <p>Lorem ipsum dolor, sit
+                 amet consectetur adipisicing elit. 
+                 Animi, blanditiis.</p>
+            </div>
+            <div class="facility-col">
+                <img src="img/eqip.jpeg">
+                <h3>Best Equipments</h3>
+                <p>Lorem ipsum dolor, sit
+                 amet consectetur adipisicing elit. 
+                 Animi, blanditiis.</p>
+            </div>
+            <div class="facility-col">
+                <img src="img/health.jpeg">
+                <h3>Healthcare</h3>
+                <p>Lorem ipsum dolor, sit
+                 amet consectetur adipisicing elit. 
+                 Animi, blanditiis.</p>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <!-- ----Footer----- -->
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione quod iste mollitia at. Nam tempore nihil nisi architecto porro eos?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+             <i class="fa fa-instagram"></i>
+             <i class="fa fa-twitch"></i>
+             <i class="fa fa-whatsapp"></i>
+
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Pratyaksh Singla</p>
+    
+    </section>
+
+
+
+
+
+   
+   
+    
+
+
+
+
+
+
+
+
+<!------Javascript for toggle menu------->
+    <script>
+
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+
+    </script>
+
+
+
+    
+</body>
+</html>
